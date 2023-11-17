@@ -1,4 +1,4 @@
-import { Base64UrlString } from "@digitalpersona/core";
+import { Base64UrlString } from "digitalpersona_angular/core";
 export declare enum VarType {
     /** The variant holds a boolean value. */
     Boolean = 1,

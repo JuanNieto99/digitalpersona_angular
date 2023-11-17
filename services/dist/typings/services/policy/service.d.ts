@@ -1,4 +1,4 @@
-import { User } from '@digitalpersona/core';
+import { User } from 'digitalpersona_angular/core';
 import { ResourceActions } from '../../common';
 import { Service } from '../../private';
 import { PolicyInfo } from './policyInfo';

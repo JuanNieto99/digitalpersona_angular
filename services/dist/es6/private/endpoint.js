@@ -1,5 +1,5 @@
 import { ServiceError } from '../common';
-import { Url } from '@digitalpersona/core';
+import { Url } from 'digitalpersona_angular/core';
 export class ServiceEndpoint {
     constructor(endpointUrl, defaultRequest) {
         this.defaultRequest = {

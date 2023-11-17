@@ -1,5 +1,5 @@
-﻿import { Base64UrlString } from '@digitalpersona/core';
-import { AuthenticationData, IAuthenticationClient, AuthenticationHandle } from '@digitalpersona/services';
+﻿import { Base64UrlString } from 'digitalpersona_angular/core';
+import { AuthenticationData, IAuthenticationClient, AuthenticationHandle } from 'digitalpersona_angular/services';
 import { Handler, MultiCastEventSource } from '../../private';
 import { Command, Request, Channel } from '../websdk';
 import { Event, CommunicationEventSource, CommunicationFailed } from '../../common';

@@ -4,7 +4,7 @@ import { CommunicationFailed } from '../../common';
 import { DeviceConnected, DeviceDisconnected } from '../events';
 import { CardInserted, CardRemoved } from './events';
 import { Method, NotificationType } from "./messages";
-import { Utf8, Base64Url, Base64, Utf16 } from '@digitalpersona/core';
+import { Utf8, Base64Url, Base64, Utf16 } from 'digitalpersona_angular/core';
 /**
  * A card reader API class.
  * An instance of this class allows to subscribe to card reader events and read card data.

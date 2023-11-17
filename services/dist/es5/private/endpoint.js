@@ -1,6 +1,6 @@
 import { __assign } from "tslib";
 import { ServiceError } from '../common';
-import { Url } from '@digitalpersona/core';
+import { Url } from 'digitalpersona_angular/core';
 var ServiceEndpoint = /** @class */ (function () {
     function ServiceEndpoint(endpointUrl, defaultRequest) {
         this.defaultRequest = {

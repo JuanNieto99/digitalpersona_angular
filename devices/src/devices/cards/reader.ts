@@ -6,7 +6,7 @@ import { CardInserted, CardRemoved } from './events';
 import { CardsEventSource as CardsEventSource } from './eventSource';
 import { Method, NotificationType, Notification, CardNotification, ReaderList, CardList } from "./messages";
 import { Card } from './cards';
-import { Utf8, Base64Url, Base64, Utf16 } from '@digitalpersona/core';
+import { Utf8, Base64Url, Base64, Utf16 } from 'digitalpersona_angular/core';
 
 /**
  * A card reader API class.

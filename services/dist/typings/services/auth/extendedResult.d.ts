@@ -1,5 +1,5 @@
 import { AuthenticationStatus } from "./status";
-import { Ticket } from '@digitalpersona/core';
+import { Ticket } from 'digitalpersona_angular/core';
 /**
  * Result of authentication handshake containing {@link AuthenticationsStatus} and optional authentication data payload.
  */

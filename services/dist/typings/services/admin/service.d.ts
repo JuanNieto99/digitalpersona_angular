@@ -1,4 +1,4 @@
-import { User, Ticket, Credential, Base64UrlString } from '@digitalpersona/core';
+import { User, Ticket, Credential, Base64UrlString } from 'digitalpersona_angular/core';
 import { Service } from '../../private';
 import { PSKCOutput } from './pskc';
 import { SearchQuery } from './search';

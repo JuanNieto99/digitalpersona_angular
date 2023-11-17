@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import { Ticket } from '@digitalpersona/core';
+import { Ticket } from 'digitalpersona_angular/core';
 import { Service } from '../../private';
 /** DigitalPersona WebAuth (DPWebAuth) service client wrapper. */
 var AuthService = /** @class */ (function (_super) {

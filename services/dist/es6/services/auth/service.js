@@ -1,4 +1,4 @@
-import { Ticket } from '@digitalpersona/core';
+import { Ticket } from 'digitalpersona_angular/core';
 import { Service } from '../../private';
 /** DigitalPersona WebAuth (DPWebAuth) service client wrapper. */
 export class AuthService extends Service {

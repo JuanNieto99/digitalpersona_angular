@@ -1,4 +1,4 @@
-import { Base64Url, Utf8 } from '@digitalpersona/core';
+import { Base64Url, Utf8 } from 'digitalpersona_angular/core';
 import { MultiCastEventSource } from '../../private';
 import { Command, Request, Channel } from '../websdk';
 import { CommunicationFailed } from '../../common';

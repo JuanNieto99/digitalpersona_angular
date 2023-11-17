@@ -1,4 +1,4 @@
-import { Base64Url, Utf8 } from '@digitalpersona/core';
+import { Base64Url, Utf8 } from 'digitalpersona_angular/core';
 import { Request, Response } from './command';
 import { MessageType, Message } from './messages';
 import 'WebSdk';

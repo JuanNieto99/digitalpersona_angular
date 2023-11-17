@@ -1,4 +1,4 @@
-import { User, CredentialId, Ticket, Credential, Base64UrlString } from '@digitalpersona/core';
+import { User, CredentialId, Ticket, Credential, Base64UrlString } from 'digitalpersona_angular/core';
 import { Service } from '../../private';
 import { Attribute, AttributeAction } from '../../common';
 

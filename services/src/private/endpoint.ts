@@ -1,5 +1,5 @@
 import { ServiceFault, ServiceError } from '../common';
-import { Url } from '@digitalpersona/core';
+import { Url } from 'digitalpersona_angular/core';
 
 export class ServiceEndpoint
 {

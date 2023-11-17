@@ -1,4 +1,4 @@
-import { ClaimNames } from '@digitalpersona/core';
+import { ClaimNames } from 'digitalpersona_angular/core';
 import { DatabaseType, AttributeName } from '../../common';
 
 /**

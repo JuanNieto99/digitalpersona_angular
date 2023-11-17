@@ -1,4 +1,4 @@
-import { User, Ticket, Credential, CredentialId, Base64UrlString } from '@digitalpersona/core';
+import { User, Ticket, Credential, CredentialId, Base64UrlString } from 'digitalpersona_angular/core';
 import { ExtendedAuthResult } from './extendedResult';
 import { Service } from '../../private';
 

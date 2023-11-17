@@ -1,4 +1,4 @@
-import { Base64UrlString } from '@digitalpersona/core';
+import { Base64UrlString } from 'digitalpersona_angular/core';
 import { AuthenticationData} from './data';
 
 /**

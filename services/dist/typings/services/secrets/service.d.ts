@@ -1,4 +1,4 @@
-import { User, Ticket, Base64UrlString } from '@digitalpersona/core';
+import { User, Ticket, Base64UrlString } from 'digitalpersona_angular/core';
 import { ResourceActions, Policy } from '../../common';
 import { Service } from '../../private';
 /**

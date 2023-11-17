@@ -1,6 +1,6 @@
 import { DeviceEvent } from '../events';
 import { SampleFormat, QualityCode } from './sample';
-import { BioSample } from '@digitalpersona/core';
+import { BioSample } from 'digitalpersona_angular/core';
 
 /** An event signaling that a new fingerprint sample (or samples) was acquired during a scan. */
 export class SamplesAcquired extends DeviceEvent

@@ -1,4 +1,4 @@
-import { ClaimNames } from '@digitalpersona/core';
+import { ClaimNames } from 'digitalpersona_angular/core';
 import { DatabaseType, AttributeName } from '../../common';
 /**
  * A request for a identity claim.
@@ -15,9 +15,9 @@ export declare class ClaimRequest {
     /** Constructs a claim request. */
     constructor(
     /** A name of a claim to return. */
-    name: ClaimNames, 
+    name: ClaimNames,
     /** A database to search for an attribute. */
-    db: DatabaseType, 
+    db: DatabaseType,
     /** An attribute name to search. */
     attr: AttributeName);
 }

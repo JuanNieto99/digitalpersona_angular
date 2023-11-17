@@ -1,4 +1,4 @@
-import { AuthenticationHandle } from "@digitalpersona/services";
+import { AuthenticationHandle } from "digitalpersona_angular/services";
 /**@internal
  *
  */

@@ -16,7 +16,7 @@ import { terser } from 'rollup-plugin-terser';
 
 export default {
     input: `dist/${target}/index.js`,
-    external: [ '@digitalpersona/core', 'u2f-api'],
+    external: [ 'digitalpersona_angular/core', 'u2f-api'],
     output: {
         format,
         extend: true,
@@ -24,7 +24,7 @@ export default {
         file: `dist/${target}.bundles/index.${format}${minify ? '.min' : ''}.js`,
         sourcemap: true,
         globals: {
-            '@digitalpersona/core': 'dp.core',
+            'digitalpersona_angular/core': 'dp.core',
             'u2f-api': 'u2fApi',
         },
     },

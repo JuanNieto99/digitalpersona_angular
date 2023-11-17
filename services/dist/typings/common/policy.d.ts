@@ -1,4 +1,4 @@
-import { CredentialId } from '@digitalpersona/core';
+import { CredentialId } from 'digitalpersona_angular/core';
 /**
  * A single authentication policy element.
  * Used to match {@CredentialUsed | used credentials} against the policy.\

@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@digitalpersona/core')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@digitalpersona/core'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('digitalpersona_angular/core')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'digitalpersona_angular/core'], factory) :
     (global = global || self, factory((global.dp = global.dp || {}, global.dp.services = global.dp.services || {}), global.dp.core));
 }(this, function (exports, core) { 'use strict';
 
@@ -257,9 +257,9 @@
         /** Constructs a claim request. */
         constructor(
         /** A name of a claim to return. */
-        name, 
+        name,
         /** A database to search for an attribute. */
-        db, 
+        db,
         /** An attribute name to search. */
         attr) {
             this.name = name;
